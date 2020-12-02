@@ -27,9 +27,6 @@ while True:
         cv.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),3)
 
     cv.imshow('frame',frame)
-    cv.imshow('capturing',gray)
-    cv.imshow('delta',delta_frame)
-    cv.imshow('thresh',thresh_delta)
 
     key=cv.waitKey(1)
 
