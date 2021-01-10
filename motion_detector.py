@@ -1,6 +1,5 @@
 import cv2 as cv
 import pandas
-import time
 
 first_frame=None
 video=cv.VideoCapture(0,cv.CAP_DSHOW)
