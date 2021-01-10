@@ -1,5 +1,4 @@
 import cv2 as cv
-from datetime import datetime
 import pandas
 import time
 
